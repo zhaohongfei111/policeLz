@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script  type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=E3sYktwojudqv4i8xvCKF5xRF1nhCr5q&s=1" ></script>
+    <script type="text/javascript" src="//api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+    <link rel="stylesheet" href="//api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />
+    <!--加载检索信息窗口-->
+    <script type="text/javascript" src="//api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js"></script>
+    <link rel="stylesheet" href="//api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />
   </head>
   <body>
     <noscript>
@@ -14,4 +20,7 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <style>
+    body{margin:0}
+  </style>
 </html>
